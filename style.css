@@ -17,12 +17,9 @@ a{
     height: 100vh;
     display: flex;
     justify-content: center;
-}
-
-.centerContent{
     text-align: center;
-
 }
+
 
 .profile{
     margin-top: 25px;
@@ -37,19 +34,25 @@ a{
 }
 
 .socialMedia{
+    display: flex;
+    justify-content: start;
     margin-right: 15px;
     width: 25px;
     height: 25px;
 }
 
-.row{
+.socialMedia, a{
+    text-align: center;
+}
+
+.socialLine{
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 15px;
-    background-color: white;
-    height: 50px;
+    justify-content: center;
+    background-color: #54B435;
     border-radius: 20px;
+    margin: 15px;
+    height: 50px;
 }
 
 @keyframes colors {
