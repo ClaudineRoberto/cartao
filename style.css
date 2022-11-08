@@ -1,10 +1,13 @@
-body{
+*{
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
     background: linear-gradient(45deg, #00FFD1, #31C6D4, #FFFF00, #FF1E1E);
     background-size: 200% 200%;
-    animation: colors 8s ease infinite;
+    /* animation: colors 8s ease infinite; */
     }
 
 a{
@@ -20,14 +23,30 @@ a{
     text-align: center;
 }
 
+.name{
+    font-style: italic;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+.profession{
+    padding: 20px;
+    font-weight: 200;
+}
+
 
 .profile{
     margin-top: 25px;
-    width: 180px;
+    width: 150px;
     border-radius: 100px;
+    border: 1px solid white;
 }
 
+
+
 .socialMediaContent{
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,18 +68,20 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #54B435;
+    background-color: rgba(84, 180, 53, 1);
     border-radius: 20px;
     margin: 8px;
     height: 50px;
     transition: 0.4s ease;
+    border: 1px solid black;
 }
 
 .socialLine:hover{
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 4px 5px 8px black;
     cursor: pointer;
     transform: scale(1.1);
     transition: 0.4s ease;
+    background-color: rgba(84, 180, 53, 0.1);
 }
 
 @keyframes colors {

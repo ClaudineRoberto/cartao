@@ -1,6 +1,7 @@
 let instaButton = document.querySelector('.instagram');
 let faceButton = document.querySelector('.facebook');
-let gitbutton = document.querySelector('.github');
+let gitButton = document.querySelector('.github');
+let emailButton = document.querySelector('.email')
 
 
 //add click event on button
@@ -13,6 +14,10 @@ faceButton.addEventListener('click', ()=> {
     window.open('https://pt-br.facebook.com/', '_blank')
 });
 
-gitbutton.addEventListener('click', ()=> {
+gitButton.addEventListener('click', ()=> {
     window.open('https://github.com/ClaudineRoberto/', '_blank')
+});
+
+emailButton.addEventListener('click', ()=> {
+    window.open('mailto:claudineroberto@hotmail.com', '_blank')
 });
